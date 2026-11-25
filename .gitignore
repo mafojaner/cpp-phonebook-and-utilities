@@ -1,0 +1,22 @@
+# Compiled binaries. These are kept out deliberately: a g++ build carries the
+# full source path in its debug information, so an .exe published from a working
+# folder leaks wherever that folder happened to live.
+*.exe
+*.out
+*.o
+*.obj
+*.pdb
+a.out
+calendar
+phonebook
+utility-toolkit
+
+# Editor state. The build task in here holds a machine-specific compiler path.
+.vscode/
+.vs/
+
+# Data the programs write at runtime. contactList.dat holds whatever names,
+# numbers and addresses were typed in while testing, so it never gets committed.
+# sample-contacts.dat is the fictional one to copy over it.
+contactList.dat
+balance.txt
